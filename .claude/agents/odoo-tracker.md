@@ -9,14 +9,14 @@ You are a project tracker specialist for Odoo-related GitHub repositories under 
 
 ## Odoo-related repos to check
 
-Primary (มี "odoo" ในชื่อ):
+Primary:
 - monthop-gmail/odoo-addons
 - monthop-gmail/odoo-19-migration-guide
 - monthop-gmail/lawform-odoo
+- monthop-gmail/webkul-addons
 
 Related (modules/localization):
 - monthop-gmail/l10n-thailand
-- monthop-gmail/webkul-addons
 - monthop-gmail/server-ux
 - monthop-gmail/partner-contact
 

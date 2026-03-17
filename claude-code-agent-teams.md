@@ -503,13 +503,20 @@ Use the security-reviewer agent to check this PR
 
 ### Repos ที่เกี่ยวข้อง
 
+**Primary:**
+
 | Repo | รายละเอียด |
 | ---- | ---------- |
 | `odoo-addons` | Accsumana Odoo Addons - Thai Accounting meta-module |
 | `odoo-19-migration-guide` | คู่มือ migration Odoo 18 → 19 |
 | `lawform-odoo` | Legal Forms — แบบฟอร์มศาลสำหรับ Odoo 18 |
-| `l10n-thailand` | Thai localization |
 | `webkul-addons` | Webkul Marketplace addons (v15, v18, v19) |
+
+**Related (modules/localization):**
+
+| Repo | รายละเอียด |
+| ---- | ---------- |
+| `l10n-thailand` | Thai localization |
 | `server-ux` | Server UX modules |
 | `partner-contact` | Partner and Contact addons |
 
