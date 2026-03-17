@@ -13,7 +13,7 @@ Primary:
 - monthop-gmail/odoo-addons
 - monthop-gmail/odoo-19-migration-guide
 - monthop-gmail/lawform-odoo
-- monthop-gmail/webkul-addons
+- monthop-gmail/odoo-addons-private
 
 Related (modules/localization):
 - monthop-gmail/l10n-thailand
