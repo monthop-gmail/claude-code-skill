@@ -510,7 +510,7 @@ Use the security-reviewer agent to check this PR
 | `odoo-addons` | Accsumana Odoo Addons - Thai Accounting meta-module |
 | `odoo-19-migration-guide` | คู่มือ migration Odoo 18 → 19 |
 | `lawform-odoo` | Legal Forms — แบบฟอร์มศาลสำหรับ Odoo 18 |
-| `odoo-addons-private` | Webkul Marketplace addons (v15, v18, v19) |
+| `odoo-addons-private` | Purchased/custom addons แยกตาม vendor (โครงสร้างด้านล่าง) |
 
 **Related (modules/localization):**
 
@@ -519,6 +519,24 @@ Use the security-reviewer agent to check this PR
 | `l10n-thailand` | Thai localization |
 | `server-ux` | Server UX modules |
 | `partner-contact` | Partner and Contact addons |
+
+### โครงสร้าง odoo-addons-private
+
+แยกโฟลเดอร์ตาม vendor/source เพื่อให้มองภาพรวมง่าย:
+
+```
+odoo-addons-private/
+├── webkul/              # modules จาก Webkul
+│   ├── marketplace/
+│   └── multi_vendor/
+├── cybrosys/            # modules จาก Cybrosys (ตัวอย่าง)
+│   └── some_module/
+└── custom/              # modules ที่ทีมพัฒนาเอง
+    └── our_module/
+```
+
+> แต่ละ module มี `__manifest__.py` ตามมาตรฐาน Odoo
+> ใช้ `--addons-path` ชี้แต่ละ vendor folder
 
 ### วิธีที่เลือกใช้: Slash Command + Subagent
 
