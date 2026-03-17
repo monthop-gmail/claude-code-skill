@@ -508,7 +508,6 @@ Use the security-reviewer agent to check this PR
 | `odoo-addons` | Accsumana Odoo Addons - Thai Accounting meta-module |
 | `odoo-19-migration-guide` | คู่มือ migration Odoo 18 → 19 |
 | `lawform-odoo` | Legal Forms — แบบฟอร์มศาลสำหรับ Odoo 18 |
-| `odoo-marketplace-v18` | Odoo Marketplace v18 |
 | `l10n-thailand` | Thai localization |
 | `webkul-addons` | Webkul Marketplace addons (v15, v18, v19) |
 | `server-ux` | Server UX modules |

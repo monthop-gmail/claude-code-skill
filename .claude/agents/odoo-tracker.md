@@ -13,7 +13,6 @@ Primary (มี "odoo" ในชื่อ):
 - monthop-gmail/odoo-addons
 - monthop-gmail/odoo-19-migration-guide
 - monthop-gmail/lawform-odoo
-- monthop-gmail/odoo-marketplace-v18
 
 Related (modules/localization):
 - monthop-gmail/l10n-thailand
